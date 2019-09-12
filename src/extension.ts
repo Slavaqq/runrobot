@@ -18,27 +18,32 @@ export function activate(context: vscode.ExtensionContext) {
 
 		// Display a message box to the user
 		try {
+
 		if (vscode.window.activeTextEditor == null)
 		{
 			throw "No open file to run in robot!";
 		}
+
 		const activeFile = vscode.window.activeTextEditor.document;
 		if (activeFile.languageId !== "python")
 		{
 			throw "The active file is not robot source code!";
 		}
-		if (activeFile.getText().search(/^def\s*main\s*(.*?)\s*:/m) === -1)
+
+		const mainFunctionDefinitionReqEx = /^def\s*main\s*(.*?)\s*:/m; 
+		if (activeFile.getText().search(mainFunctionDefinitionReqEx) === -1)
 		{
 			throw "The active file does not define main function!";
 		}
-		const config = vscode.workspace.getConfiguration("runRobot");
 
+		const runRobotConfig = vscode.workspace.getConfiguration("runRobot");
 		const robotTerminal = vscode.window.createTerminal("Robot");
 		robotTerminal.show();
-		robotTerminal.sendText("echo " + config.get("robotPath"));
+		robotTerminal.sendText("echo " + runRobotConfig.get("robotPath"));
 		}
-		catch (message) {
-			vscode.window.showErrorMessage(message);
+
+		catch (error_message) {
+			vscode.window.showErrorMessage(error_message);
 		}
 	});
 
