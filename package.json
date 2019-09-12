@@ -10,16 +10,27 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.runRobot"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.runRobot",
+				"title": "Run Robot"
 			}
-		]
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Run Robot",
+			"properties": {
+				"runRobot.robotPath": {
+					"type": "string",
+					"default": "C:/UltimateRPA/URPA/Robot.exe",
+					"description": "Path to the UltimateRPA Robot.exe"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
