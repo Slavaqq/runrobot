@@ -37,9 +37,11 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 
 		const runRobotConfig = vscode.workspace.getConfiguration("runRobot");
+		const robotPath = runRobotConfig.get("robotPath");
+		const activeFileName = activeFile.fileName;
 		const robotTerminal = vscode.window.createTerminal("Robot");
 		robotTerminal.show();
-		robotTerminal.sendText("echo " + runRobotConfig.get("robotPath"));
+		robotTerminal.sendText(`"${robotPath}" "${activeFileName}"`);
 		}
 
 		catch (error_message) {
