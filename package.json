@@ -9,6 +9,15 @@
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Slavaqq/runrobot"
+	},
+	"icon": "images/ultimaterpa_logo.png",
+	"galleryBanner": {
+		"color": "#F2F2F2",
+		"theme": "light"
+	},
 	"activationEvents": [
 		"onCommand:extension.runRobot"
 	],
