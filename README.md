@@ -1,6 +1,6 @@
 # Run Robot
 
-Run Robot adds support for the [UltimateRPA](www.ultimaterpa.com) Robot to the Visual Studio Code.
+Run Robot adds support for the [UltimateRPA](https://www.ultimaterpa.com) Robot to the Visual Studio Code.
 
 ## Features
 
