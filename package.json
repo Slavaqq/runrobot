@@ -1,6 +1,6 @@
 {
 	"name": "runrobot",
-	"displayName": "RunRobot",
+	"displayName": "Run Robot",
 	"description": "Adds command to run UltimateRPA robot in termial.",
 	"version": "0.9.0",
 	"publisher": "slavaqq",
