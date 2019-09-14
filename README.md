@@ -22,8 +22,3 @@ Submit the [issues](https://github.com/Slavaqq/runrobot/issues) if you find any 
 ## Contribution
 
 Fork the [repo](https://github.com/Slavaqq/runrobot) and submit pull requests.
-
-## Release Notes
-
-### 0.9.0
-- Alpha version of the Run Robot Extensions

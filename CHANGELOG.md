@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+
+## [0.9.1] - 2019-09-14
+- Default terminal is set to cmd
+- Correct display name
+- Correct link for UltimateRPA website
+
 ## [0.9.0] - 2019-09-13
 
-- Initial aplha release
+- Initial Aplha release
