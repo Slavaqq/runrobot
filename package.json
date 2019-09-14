@@ -2,7 +2,7 @@
 	"name": "runrobot",
 	"displayName": "Run Robot",
 	"description": "Adds command to run UltimateRPA robot in termial.",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"publisher": "slavaqq",
 	"engines": {
 		"vscode": "^1.38.0"
