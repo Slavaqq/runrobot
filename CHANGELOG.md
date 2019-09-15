@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.9.3] - 2019-09-15
+- The terminal is not taking focus.
+- Add How to use section in readme.
+- Animated gif in readme.
+
+## [0.9.2] - 2019-09-14
+- Beta release
 
 ## [0.9.1] - 2019-09-14
 - Default terminal is set to cmd
