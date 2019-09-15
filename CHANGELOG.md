@@ -19,6 +19,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Correct display name
 - Correct link for UltimateRPA website
 
-## [0.9.0] - 2019-09-13
-
+## [0.9.0] - 2019-09-13
 - Initial Aplha release
