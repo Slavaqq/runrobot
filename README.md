@@ -4,7 +4,18 @@ Run Robot adds support for the [UltimateRPA](https://www.ultimaterpa.com) Robot 
 
 ## Features
 
-- Run python script in UltimateRPA Robot with `Run Robot` command. 
+- Run python script in UltimateRPA Robot with `Run Robot` command.
+
+![Run Robot Features](images/run_robot.gif)
+
+## How to use
+
+1. Open UltimateRPA script.
+2. Press `Ctrl+Shift+P`.
+3. Type `Run Robot`.
+4. Press enter.
+
+or you can set [keyboard shortcut](https://code.visualstudio.com/docs/getstarted/keybindings) for the command.
 
 ## Requirements
 
