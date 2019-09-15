@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const robotPath = runRobotConfig.get("robotPath");
 		const activeFileName = activeFile.fileName;
 		const robotTerminal = vscode.window.createTerminal("Robot", "cmd.exe");
-		robotTerminal.show();
+		robotTerminal.show(true);
 		robotTerminal.sendText(`"${robotPath}" "${activeFileName}"`);
 		}
 
