@@ -15,7 +15,7 @@ Run Robot adds support for the [UltimateRPA](https://www.ultimaterpa.com) Robot 
 3. Type `Run Robot`.
 4. Press enter.
 
-or you can set [keyboard shortcut](https://code.visualstudio.com/docs/getstarted/keybindings) for the command.
+or you can set a [keyboard shortcut](https://code.visualstudio.com/docs/getstarted/keybindings) for the command.
 
 ## Requirements
 
