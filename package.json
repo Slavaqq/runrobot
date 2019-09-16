@@ -1,7 +1,7 @@
 {
 	"name": "runrobot",
 	"displayName": "Run Robot",
-	"description": "Adds command to run UltimateRPA robot in termial.",
+	"description": "Adds command to run UltimateRPA robot in terminal.",
 	"version": "0.9.3",
 	"publisher": "slavaqq",
 	"engines": {
