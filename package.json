@@ -36,7 +36,7 @@
 			"properties": {
 				"runRobot.robotPath": {
 					"type": "string",
-					"default": "C:/UltimateRPA/UltimateRPA Tools 4.5.0.0/Robot.exe",
+					"default": "C:/UltimateRPA/UltimateRPA Tools 4.5.1.0/Robot.exe",
 					"description": "Path to the UltimateRPA Robot.exe"
 				}
 			}
